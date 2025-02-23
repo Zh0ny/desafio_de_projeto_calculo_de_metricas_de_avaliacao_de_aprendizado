@@ -44,7 +44,7 @@ python metrics_calculation.py
 ```
 O script irá treinar o modelo e exibir as métricas de avaliação no console, além de gerar um heatmap da matriz de confusão.
 
-##Resultados
+## Resultados
 O script exibirá as seguintes métricas de avaliação:
 
   --Matriz de Confusão: Visualização do desempenho do modelo para cada classe.
@@ -56,7 +56,7 @@ O script exibirá as seguintes métricas de avaliação:
   --Métricas Macro: Médias das métricas para todas as classes.
   --Métricas Micro: Métricas calculadas globalmente, considerando todas as classes.
   
-##Observações
+## Observações
   --O diretório log/ é usado para os logs do TensorBoard. Você pode visualizar os logs executando tensorboard --logdir log no terminal.
   --O modelo é treinado por 5 épocas. Você pode ajustar esse valor no script.
   --O script calcula as métricas de avaliação usando a matriz de confusão normalizada. Se você precisar das contagens absolutas, precisará ajustar o código.
