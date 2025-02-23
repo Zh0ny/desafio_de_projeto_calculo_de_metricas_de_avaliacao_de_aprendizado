@@ -47,16 +47,16 @@ O script irá treinar o modelo e exibir as métricas de avaliação no console, 
 ## Resultados
 O script exibirá as seguintes métricas de avaliação:
 
-  --Matriz de Confusão: Visualização do desempenho do modelo para cada classe.
-  --Sensibilidade (Recall): Taxa de verdadeiros positivos para cada classe.
-  --Especificidade: Taxa de verdadeiros negativos para cada classe.
-  --Acurácia: Proporção total de previsões corretas.
-  --Precisão: Taxa de previsões positivas corretas para cada classe.
-  --F1-Score: Média harmônica de precisão e sensibilidade para cada classe.
-  --Métricas Macro: Médias das métricas para todas as classes.
-  --Métricas Micro: Métricas calculadas globalmente, considerando todas as classes.
+  -  Matriz de Confusão: Visualização do desempenho do modelo para cada classe.
+  - Sensibilidade (Recall): Taxa de verdadeiros positivos para cada classe.
+  - Especificidade: Taxa de verdadeiros negativos para cada classe.
+  - Acurácia: Proporção total de previsões corretas.
+  - Precisão: Taxa de previsões positivas corretas para cada classe.
+  - F1-Score: Média harmônica de precisão e sensibilidade para cada classe.
+  - Métricas Macro: Médias das métricas para todas as classes.
+  - Métricas Micro: Métricas calculadas globalmente, considerando todas as classes.
   
 ## Observações
-  --O diretório log/ é usado para os logs do TensorBoard. Você pode visualizar os logs executando tensorboard --logdir log no terminal.
-  --O modelo é treinado por 5 épocas. Você pode ajustar esse valor no script.
-  --O script calcula as métricas de avaliação usando a matriz de confusão normalizada. Se você precisar das contagens absolutas, precisará ajustar o código.
+  - O diretório log/ é usado para os logs do TensorBoard. Você pode visualizar os logs executando tensorboard --logdir log no terminal.
+  - O modelo é treinado por 5 épocas. Você pode ajustar esse valor no script.
+  - O script calcula as métricas de avaliação usando a matriz de confusão normalizada. Se você precisar das contagens absolutas, precisará ajustar o código.
